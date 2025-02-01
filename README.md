@@ -1,7 +1,3 @@
-Here’s a **detailed README.md** for your video-conferencing API project. This README explains the project, its features, how to set it up, and how to run it.
-
----
-
 # **Video Conferencing API**
 
 A video-conferencing API built using **Node.js**, **Express**, and **WebRTC**. This API handles live video streaming, room creation, and user authentication. It uses **Socket.io** for real-time communication and **MongoDB** for data storage.
