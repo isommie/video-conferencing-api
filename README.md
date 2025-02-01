@@ -32,35 +32,6 @@ A video-conferencing API built using **Node.js**, **Express**, and **WebRTC**. T
 
 ---
 
-## **Folder Structure**
-```
-video-conferencing-api/
-├── config/
-│   └── db.js                # Database configuration
-├── controllers/
-│   ├── authController.js    # Handles user authentication
-│   ├── roomController.js    # Handles room creation
-│   └── webrtcController.js  # Handles WebRTC signaling
-├── middleware/
-│   └── authMiddleware.js    # Authentication middleware
-├── models/
-│   ├── User.js              # User model
-│   └── Room.js              # Room model
-├── routes/
-│   ├── authRoutes.js        # Routes for authentication
-│   ├── roomRoutes.js        # Routes for room management
-│   └── webrtcRoutes.js      # Routes for WebRTC signaling
-├── utils/
-│   └── generateToken.js     # Utility to generate JWT tokens
-├── .env                     # Environment variables
-├── .gitignore               # Git ignore file
-├── app.js                   # Main application file
-├── server.js                # Server setup
-└── package.json             # Node.js dependencies
-```
-
----
-
 ## **Setup and Installation**
 
 ### **Prerequisites**
@@ -101,12 +72,11 @@ video-conferencing-api/
 
 5. **Test the API**:
    - Use tools like [Postman](https://www.postman.com/) or [curl](https://curl.se/) to test the API endpoints.
-   - Example API requests are provided below.
 
 ---
 
 ## **API Endpoints**
-
+   - Example API requests are provided below.
 ### **Authentication**
 - **Register a New User**:
   ```
